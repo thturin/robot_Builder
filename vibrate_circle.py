@@ -1,12 +1,11 @@
 import turtle as t
 
-
+s = t.Screen()
 def buttonclick(x,y):
     print("You clicked at this coordinate({0},{1})".format(x,y))
 
 
-
-t.screensize(400,400)
+s.setup(width=0.5,height=0.5) #half of the screens dimensions
 t.onscreenclick(buttonclick,1)
 t.listen()
 
