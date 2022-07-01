@@ -59,3 +59,17 @@ rectangle(15, 20, 'grey')
 #9 head
 t.goto(-85,170)
 rectangle(80,50,'red')
+
+#10 eyes
+# eyes
+t.goto(-60, 160)
+rectangle(30, 10, 'white')
+t.goto(-55, 155)
+rectangle(5, 5, 'black')
+t.goto(-40, 155)
+rectangle(5, 5, 'black')
+
+#11 mouth
+t.goto(-65, 135)
+t.right(5)
+rectangle(40, 5, 'black')
