@@ -73,3 +73,13 @@ rectangle(5, 5, 'black')
 t.goto(-65, 135)
 t.right(5)
 rectangle(40, 5, 'black')
+
+#12 hands
+t.goto(-155, 130)
+rectangle(25, 25, 'green')
+t.goto(-147, 130)
+rectangle(10, 15, t.bgcolor())
+t.goto(50, 130)
+rectangle(25, 25, 'green')
+t.goto(58, 130)
+rectangle(10, 15, t.bgcolor())
